@@ -26,9 +26,9 @@ missing
 build
 src/JSBSim*
 src/.libs/
-./dotest
 *.patch
 *.diff
 *.png
 *.catalog
 TAGS
+.idea

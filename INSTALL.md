@@ -4,18 +4,23 @@ Contents
 1. [Introduction](#1-introduction)
 
 2. [Building with autoconf/automake](#2-building-with-autoconfautomake)
-2.1. [Building JSBSim libraries](#21-building-jsbsim-libraries)
-   
+    
+    2.1. [Building JSBSim libraries](#21-building-jsbsim-libraries)
+
 3. [Building with cmake](#3-building-with-cmake)   
-   3.1. [Linux](#31-linux)
-   3.2. [Windows MinGW](#32-windows-mingw)
-   3.3. [Windows MSVC 2010](#33-windows-msvc-2010)
-   3.4. [Windows MSVC 2011](#34-windows-msvc-2011)
+	
+	3.1. [Linux](#31-linux)
 
-4. [Contact](4-contact)
+	3.2. [Windows MinGW](#32-windows-mingw)
+
+	3.3. [Windows MSVC 2010](#33-windows-msvc-2010)
+
+	3.4. [Windows MSVC 2011](#34-windows-msvc-2011)
+
+4. [Contact](#4-contact)
 
 
-#1. Introduction
+# 1. Introduction
 
 JSBSim is a multi-platform, general purpose object-oriented Flight
 Dynamics Model (FDM) written in C++. Jon Berndt and Tony Peden began
@@ -25,7 +30,7 @@ for testing and study. More information on JSBSim can be found at the
 JSBSim home page [here](http://www.jsbsim.org).
 
 
-#2. Building with autoconf/automake
+# 2. Building with autoconf/automake
 
 
 Unpack the distribution tarball (if needed - CVS users will have
@@ -70,7 +75,7 @@ $ make
 Will compile the various classes, and build the JSBSim application.
 
 
-###2.1. Building JSBSim libraries
+### 2.1. Building JSBSim libraries
 
 
 By default, the JSBSim libraries are not built. To build and install
@@ -91,7 +96,7 @@ install JSBSim libraries into `/usr/local/lib` and JSBSim headers
 into `/usr/local/include/JSBSim`.
 
 
-#3. Building with cmake
+# 3. Building with cmake
 
 
 Unpack the distribution tarball (if needed - CVS users will have
@@ -116,7 +121,7 @@ BUILD_SHARED_LIBS
 
 The `..` means parent directory, it shouldn't be omitted.
 
-###3.1. Linux
+### 3.1. Linux
 
 Run the following commands :
 
@@ -134,7 +139,7 @@ $ xargs rm < install_manifest.txt
 ```
 
 
-###3.2. Windows MinGW
+### 3.2. Windows MinGW
 
 Tested with MinGW of __CodeBlocks 12.11__.
 
@@ -148,7 +153,7 @@ $ mingw32-make install [DESTDIR=_install]
 ```
 
 
-###3.3. Windows MSVC 2010
+### 3.3. Windows MSVC 2010
 
 Tested with __MSVC 2010 express SP1__.
 
@@ -163,7 +168,7 @@ $ msbuild jsbsim.sln
 You can also open `jsbsim.sln` with visual studio IDE.
 
 
-###3.4. Windows MSVC 2011
+### 3.4. Windows MSVC 2011
 
 Tested with __MSVC 2012 express__.
 
@@ -178,7 +183,7 @@ $ msbuild jsbsim.sln
 You can also open `jsbsim.sln` with visual studio IDE.
 
 
-#4. Contact
+# 4. Contact
 
 For more information on JSBSim contact Jon Berndt at jon@jsbsim.org.
 

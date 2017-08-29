@@ -8,7 +8,7 @@ Contents
 3. [Contact](#3-contact)
 
 
-#1. Introduction
+# 1. Introduction
 
 
 JSBSim is a multi-platform, general purpose object-oriented Flight Dynamics Model (FDM) written in C++. Jon Berndt and Tony Peden began about mid-1998 writing JSBSim. As of this writing it is the default FDM for FlightGear. JSBSim can also be run in a standalone batch mode for testing and study. More information on JSBSim can be found at the JSBSim home page [here](http://www.jsbsim.org).
@@ -16,7 +16,7 @@ JSBSim is a multi-platform, general purpose object-oriented Flight Dynamics Mode
 For a detailed install process from sources, see [INSTALL.md](INSTALL.md).
 
 
-#2. Building with autoconf/automake
+# 2. Building with autoconf/automake
 
 
 Unpack the distribution tarball (if needed - CVS users will have downloaded the code directly) using your preferred method, and change to the working directory. For example :
@@ -53,7 +53,7 @@ $ make
 Will compile the various classes, and build the JSBSim application.
 
 
-###Building JSBSim libraries
+### Building JSBSim libraries
 
 By default, the JSBSim libraries are not built. To build and install the libraries, use:
 
@@ -70,7 +70,7 @@ $ make install
 Unless specified otherwise (with `--prefix` configure option), this will install JSBSim libraries into `/usr/local/lib` and JSBSim headers into `/usr/local/include/JSBSim`.
 
 
-#3. Contact
+# 3. Contact
 
 For more information on JSBSim contact Jon Berndt at jon@jsbsim.org.
 
