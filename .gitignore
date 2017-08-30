@@ -6,9 +6,7 @@ Makefile.in
 *.csv
 *.lo
 *.la
-COPYING
 CVS
-INSTALL
 VERSION
 aclocal.m4
 autom4te.cache
